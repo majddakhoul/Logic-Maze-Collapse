@@ -2,8 +2,6 @@
 
 Logic Maze Collapse is a Java-based maze board game featuring multiple types of pieces, player mechanics, and advanced pathfinding algorithms. The project demonstrates a combination of object-oriented design, state management, and AI search algorithms such as DFS, BFS, UCS, and A*.
 
----
-
 ## Table of Contents
 
 - [Features](#features)  
@@ -16,8 +14,6 @@ Logic Maze Collapse is a Java-based maze board game featuring multiple types of 
 - [Manual Play Instructions](#manual-play-instructions)  
 - [License](#license)  
 
----
-
 ## Features
 
 - Java-based 5x5 maze board game  
@@ -28,8 +24,6 @@ Logic Maze Collapse is a Java-based maze board game featuring multiple types of 
 - Solve the board automatically using AI search algorithms  
 - Print board state and path from start to goal  
 
----
-
 ## Game Pieces
 
 - **StartPiece (`S`)**: Player's starting position  
@@ -39,8 +33,6 @@ Logic Maze Collapse is a Java-based maze board game featuring multiple types of 
 - **UnlockerPiece (`K`)**: Grants a key to the player  
 - **MultiPassPiece (`2`/`1`/`0`)**: Can be stepped on multiple times, updates symbol accordingly  
 
----
-
 ## Player Mechanics
 
 - Tracks current position and inventory of keys  
@@ -49,16 +41,12 @@ Logic Maze Collapse is a Java-based maze board game featuring multiple types of 
 - Moves affect score based on piece cost  
 - Winning is achieved by reaching the `FinalPiece`  
 
----
-
 ## Pathfinding Algorithms
 
 - **Depth-First Search (DFS)**: Explores as deep as possible along each branch  
 - **Breadth-First Search (BFS)**: Explores neighbors level by level  
 - **Uniform Cost Search (UCS)**: Explores nodes with the lowest cumulative cost first  
 - **A* Search**: Uses Manhattan distance heuristic plus current cost for optimal path  
-
----
 
 ## Project Structure
 
@@ -99,8 +87,6 @@ LogicMazeCollapse.java
 - **Java Development Kit (JDK)** version 8 or higher  
 - IDE such as **IntelliJ IDEA**, **Eclipse**, or **VS Code** with Java support  
 
----
-
 ## How to Run
 
 1. Clone or download the project  
@@ -109,8 +95,6 @@ LogicMazeCollapse.java
 4. Run the `LogicMazeCollapse` main class  
 5. By default, the program runs the **A\*** search algorithm.  
 6. To use DFS, BFS, or UCS, uncomment the respective method calls in `main`  
-
----
 
 ## Manual Play Instructions
 
@@ -125,10 +109,6 @@ LogicMazeCollapse.java
    - Example: `N*[1]` = NormalPiece with player on it and cost 1  
 5. Reach the `FinalPiece (F)` to win the game  
 
----
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
----
